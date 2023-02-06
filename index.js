@@ -33,12 +33,15 @@ btns.forEach(function (btn) {
       alert('like', 'like');
       setTimeout(function () {
         dog = getNewDog();
+        dog.hasBeenSwiped = true;
+        dog.hasBeenLiked = true;
         render();
       }, 2000);
     } else {
       alert('nope', 'unlike');
       setTimeout(function () {
         dog = getNewDog();
+        dog.hasBeenSwiped = true;
         render();
       }, 2000);
     }

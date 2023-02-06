@@ -145,6 +145,7 @@ main {
   border-radius: 50%;
   width: 5rem;
   box-shadow: 0px 10px 20px #e9e9ea;
+  cursor: pointer;
 }
 
 .unlike-btn {
