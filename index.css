@@ -20,7 +20,7 @@ body {
 
 main {
   width: 100%;
-  max-width: 50rem;
+  max-width: 34rem;
   margin: 0 auto;
   min-height: 100%;
   padding: 0 10px;
@@ -56,7 +56,7 @@ main {
 }
 
 .img-container {
-  min-height: 80%;
+  min-height: 60%;
   /* height: 40.5rem; */
   border-radius: 15px;
   position: relative;
