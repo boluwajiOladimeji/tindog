@@ -22,6 +22,7 @@ main {
   width: 100%;
   max-width: 34rem;
   margin: 0 auto;
+  min-height: 100%;
   padding: 0 10px;
 }
 
@@ -55,7 +56,8 @@ main {
 }
 
 .img-container {
-  height: 40.5rem;
+  min-height: 80%;
+  /* height: 40.5rem; */
   border-radius: 15px;
   position: relative;
   background: linear-gradient(
