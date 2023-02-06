@@ -56,8 +56,8 @@ main {
 }
 
 .img-container {
-  min-height: 60%;
-  /* height: 40.5rem; */
+  /* min-height: 60%; */
+  height: 46.5rem;
   border-radius: 15px;
   position: relative;
   background: linear-gradient(
