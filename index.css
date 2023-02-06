@@ -1,0 +1,160 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+}
+
+.data-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+main {
+  width: 100%;
+  max-width: 34rem;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 5rem;
+  align-items: center;
+}
+
+.header-icon {
+  font-size: 34px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.header-icon {
+  color: #dce1e7;
+}
+
+.paw-icon {
+  background: linear-gradient(to right, #fa695a, #f83375);
+  font-size: 14px;
+  width: 84px;
+  height: 42px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  border-radius: 100px;
+}
+
+.img-container {
+  height: 40.5rem;
+  border-radius: 15px;
+  position: relative;
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.9) -11.44%,
+    rgba(0, 0, 0, 0) 39.97%
+  );
+  margin-bottom: 1rem;
+  transition: all 0.5s ease-in;
+}
+
+.img-text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-bottom: 1rem;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.img-name-age {
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+.img-info {
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: #b7b7b7;
+}
+
+.img-choice {
+  position: absolute;
+  border-radius: 10.3px;
+  top: 55px;
+  left: 14px;
+  transform: rotate(-30deg);
+  width: 233px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 84px;
+  text-align: center;
+  border-width: 8.3px;
+  border-style: solid;
+  border-radius: 10px;
+  display: none;
+}
+
+.like {
+  display: block;
+  background: linear-gradient(to right, #29d78a, #6ef2f2);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+
+  border-image: linear-gradient(45deg, #29d78a, #6ef2f2) 1;
+}
+
+.unlike {
+  display: block;
+  background: linear-gradient(to right, #f9655c, #f83574);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+
+  border-image: linear-gradient(45deg, #f9655c, #f83574) 1;
+}
+
+.buttons {
+  margin-bottom: 1.5rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  /* display: inline-block; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  border: none;
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 50%;
+  width: 5rem;
+  box-shadow: 0px 10px 20px #e9e9ea;
+}
+
+.unlike-btn {
+  margin-right: 10px;
+}
+
+.heart-btn:hover {
+  background: #dbfff4;
+  box-shadow: 0px 10px 20px #ccf1e6;
+}
+
+.unlike-btn:hover {
+  background: #ffe7ef;
+  box-shadow: 0px 10px 20px #edd9df;
+}
